@@ -7,7 +7,7 @@ from typing import List, Dict, Iterator
 # with vai abrir o arquivo vendas e guarda-lo em file para podermos manipula-lo
 
 sales: List[Dict[str, str]] = [] # lista sales para guardar os dados estruturados
-keys: List[str] = ["id", "product", "quantity", "price"] # lista das chaves que mortar o dicionário
+keys: List[str] = ["id", "product", "quantity", "price"] # lista das chaves que montam o dicionário
 
 try:
     with open("sales.csv", newline='') as file:
@@ -21,12 +21,10 @@ try:
             print(sales)
 
 except FileNotFoundError:
-    print("O arquivo não foi encontrado")
-    # sales: List[Dict[str, str]] = [] # necessário declarar sales novamente se sales inicialmente estiver declarado dentro do bloco try, pode ser que try tenha sido pulado e sales nem exista ainda 
+    print("O arquivo não foi encontrado")   
     
 except Exception as e:
     print("Erro inesperado, tente novamente")
-    # sales: List[Dict[str, str]] = []
 
 
 with open("sales.json", "w") as json_file: # cria ou sobrescreve um aquivo json de nome sales.json
