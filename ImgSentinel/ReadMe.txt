@@ -7,7 +7,7 @@ Automatização simples que mantêm a organização do computador
 Nessa versão o programa roda por um tempo determinado (~1min)
 mas é possível modifica-lo para ficar por mais tempo ou até sempre ativo na máquina
 
-Também é possível modifica-lo pare que vigie e encaminha para outras pastas, baseado em outras extensões ou até em nome de arquivos
+Também é possível modifica-lo pare que vigie e encaminhe para outras pastas, baseado em outras extensões ou até em nome de arquivos
 
 
 ==============================================================================================================================================
